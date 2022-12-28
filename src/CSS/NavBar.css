@@ -1,0 +1,34 @@
+nav {
+    border-bottom: 2px solid black;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+}
+
+nav ul {
+    list-style-type: none;
+    background: linear-gradient(#ffff, rgba(46, 59, 236, 0.192));
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 24px 32px;
+}
+
+nav a:hover {
+    background: black;
+    color: white;
+}
