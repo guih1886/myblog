@@ -1,0 +1,12 @@
+.contact {
+    background-color: #102340;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+}
+
+.info {
+    padding-top: 3vh;
+    font-size: 3em;
+    text-align: center;
+}

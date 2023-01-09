@@ -1,11 +1,10 @@
 import React from 'react'
-import { Link, /*useNavigate*/ } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../CSS/NavBar.css'
 
 export default function NavBar() {
-    //const navigate = useNavigate()
     return (
-        <nav>
+        <nav className='navbar'>
             <ul>
                 <li>
                     <Link to={'/'}>Home</Link>

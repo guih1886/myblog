@@ -1,34 +1,31 @@
 nav {
-    border-bottom: 2px solid black;
+    border-bottom: 1.8rem solid #0f132A;
     text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: white;
 }
 
 nav ul {
     list-style-type: none;
-    background: linear-gradient(#ffff, rgba(46, 59, 236, 0.192));
+    background-color: #0f132A;
     margin: 0;
     padding: 0;
 }
 
 nav li {
     display: inline-block;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    font-size: 1.8rem;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
-    padding: 24px 32px;
+    padding: 1.8rem 1.8rem;
 }
 
 nav a:hover {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
+    font-weight: bold;
 }

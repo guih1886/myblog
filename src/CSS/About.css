@@ -1,0 +1,11 @@
+.about {
+    background-color: #102340;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+}
+
+p {
+    margin: 0;
+    padding-top: 3vh;
+}

@@ -1,7 +1,12 @@
 import React from 'react'
+import '../CSS/Projects.css'
 
 export default function ProjectsPage() {
   return (
-    <div>ProjectsPage</div>
+    <div className="content">
+      <div className='projects'>
+        <p>ProjectsPage</p>
+      </div>
+    </div>
   )
 }

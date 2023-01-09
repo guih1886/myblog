@@ -1,4 +1,19 @@
-.content {
-    border-color: red;
-    border-width: 20px;
+.home {
+   margin: 0;
+   background-color: #102340;
+   color: white;
+   font-weight: bold;
+   height: 100%;
+}
+
+.greetings {
+   margin: 0;
+   align-items: center;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+}
+
+h1 {
+   margin: 0;
+   padding-top: 3vh;
 }
