@@ -6,7 +6,7 @@ export default function ContactPage() {
   return (
     <div className='content'>
       <div className='contact'>
-        <div className="info">
+        <div className="contact-info">
           <div><ImWhatsapp color='green' /></div>
           <div>Envie-me uma mensagem no WhatsApp!</div>
         </div>
