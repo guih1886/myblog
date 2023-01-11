@@ -6,18 +6,30 @@
    margin: 0;
    background-color: #102340;
    color: white;
+   font-size: 14px;
    font-weight: bold;
+   width: 100%;
    height: 100%;
 }
 
 .greetings {
-   margin: 0;
+   font-size: 1.2em;
+   margin: 2vh;
    align-items: center;
    font-family: 'Poppins', sans-serif;
    text-align: center;
+   overflow: auto;
 }
 
 .img {
-   width: 70vmax;
-   height: 30vmax;
+   display: flex;
+   width: 80vw;
+   height: 50vh;
+   justify-content: center;
+   align-items: center;
+}
+
+.img img {
+   margin: 0;
+   border-radius: 0%;
 }

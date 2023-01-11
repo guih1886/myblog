@@ -1,6 +1,7 @@
 html,
 body {
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,9 +9,12 @@ body {
 
 .container {
     display: grid;
-    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 85vh 5vh;
+    grid-template-rows: 8vh 85vh 7vh;
     grid-template-areas: "nav nav" "c c" "f f";
 }
 
