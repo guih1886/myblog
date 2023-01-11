@@ -1,9 +1,9 @@
-import React from 'react'
-import Photo from '../Documents/img1.jpeg'
-import CV from '../Documents/CV_Guilherme.pdf'
-import '../CSS/About.css'
-import { SiJavascript, SiHtml5, SiCss3, SiReact, SiPython, SiPhp } from 'react-icons/si'
-import { FaNodeJs } from 'react-icons/fa'
+import React from 'react';
+import Photo from '../Documents/img1.jpeg';
+import CV from '../Documents/CV_Guilherme.pdf';
+import '../CSS/About.css';
+import { SiJavascript, SiHtml5, SiCss3, SiReact, SiPython, SiPhp } from 'react-icons/si';
+import { FaNodeJs } from 'react-icons/fa';
 
 
 export default function AboutPage() {
@@ -29,7 +29,7 @@ export default function AboutPage() {
               um servidor de um jogo online o qual eu amava na época, todo programado em LUA e com arquivos XML, .config e um banco de dados
               gerenciado com SQL lite! Naquela época e nem imaginava que seguiria esse caminho como profissão.</h3>
             <h3>Mais tarde iniciei os estudos no campo de <strong>Ciência da Computação</strong>, o qual meu foco inicial era trabalhar com banco de dados,
-              mas mudei meu foco com o tempo para programação após as aulas de Java.</h3>
+              mas mudei com o tempo para programação após as aulas de Java na faculdade.</h3>
           </p>
         </div>
         <div className="info2">
@@ -47,14 +47,14 @@ export default function AboutPage() {
           </p>
         </div>
         <div className="downloads">
-          <a className='a-btn' href="https://onedrive.live.com/?authkey=%21AH35waqxWtL%5Frb8&id=403E62CB16C6E48D%2184126&cid=403E62CB16C6E48D" >
+          <a className='a-btn' href="https://onedrive.live.com/?authkey=%21AH35waqxWtL%5Frb8&id=403E62CB16C6E48D%2184126&cid=403E62CB16C6E48D" target='_blank' rel='noreferrer'>
             <button className='button'>Meus certificados</button>
           </a>
-          <a className='a-btn' href={CV} >
+          <a className='a-btn' href={CV} target='_blank' rel='noreferrer'>
             <button className='button'>Download CV</button>
           </a>
         </div>
       </div>
     </div>
-  )
+  );
 }
