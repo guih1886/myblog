@@ -13,6 +13,8 @@
 }
 
 .greetings {
+   width: 100vw;
+   height: 50%;
    font-size: 1.2em;
    margin: 2vh;
    align-items: center;
@@ -21,15 +23,18 @@
    overflow: auto;
 }
 
-.img {
+.img-home {
    display: flex;
-   width: 80vw;
-   height: 50vh;
    justify-content: center;
    align-items: center;
+   width: 100vw;
+   height: 50%;
+   margin-bottom: 2%;
 }
 
-.img img {
+.img-home img {
+   width: 50%;
+   height: 100%;
    margin: 0;
    border-radius: 0%;
 }
