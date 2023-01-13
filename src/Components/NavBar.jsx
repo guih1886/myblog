@@ -3,15 +3,6 @@ import { Link } from 'react-router-dom';
 import '../CSS/NavBar.css';
 
 export default function NavBar() {
-    let show = true;
-    const menuSection = document.querySelector('.menu-section');
-    const menuToggle = document.querySelector('.menu-toggle');
-
-    menuToggle.addEventListener('click', () => {
-        menuSection.classList.toggle('on', show);
-        show = !show;
-    });
-
     return (
         <>
             <div className="menu-section">
