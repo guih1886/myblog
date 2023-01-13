@@ -28,37 +28,40 @@
 
 .img-media {
     width: 90%;
-    height: 90%;
+    height: 80%;
 }
 
 .title {
+    display: flex;
     height: 100%;
     grid-area: title;
+    flex-wrap: wrap;
     background-color: #0f132A;
-    font-size: 25px;
+    font-size: 2.5rem;
     color: white;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
     text-align: center;
-    padding-top: 1vh;
 }
 
 .description {
     grid-area: desc;
+    min-height: 100%;
     background-color: #102340;
     color: white;
-    font-size: 20px;
     font-weight: bold;
     word-break: break-word;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .description text {
-    margin-top: 1vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    font-size: 2rem;
 }
 
 .links {
+    width: 100%;
+    height: auto;
     grid-area: links;
     display: flex;
     flex-direction: row;
@@ -67,6 +70,47 @@
 }
 
 .a-btn-item {
-    margin: 1%;
-    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.button-item {
+    border-radius: 0.8vh;
+    cursor: pointer;
+    background-color: #0039CC;
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    width: 50%;
+    height: 90%;
+    border: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0070CC;
+}
+
+@media (max-width: 1024px) {
+    .button-item {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .title {
+        font-size: 1.6rem;
+    }
+
+    .description text {
+        font-size: 1.2rem;
+    }
+
+    .button-item {
+        font-size: 1.5rem;
+    }
 }

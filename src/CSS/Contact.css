@@ -8,6 +8,7 @@
     width: 100%;
     height: 100%;
     text-align: center;
+    font-size: 1.8rem;
 }
 
 .l1 {
@@ -16,11 +17,26 @@
     align-items: center;
     align-self: center;
     background-color: rgba(0, 0, 0, 0.3);
-    min-width: 40%;
-    max-height: 30%;
-    min-height: 130px;
+    width: 80vw;
+    height: 30vh;
 }
 
 a svg {
     margin: 3vw;
+}
+
+@media (max-width: 3860px) and (min-width: 1024px) {
+    .l1 {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .l1 {
+        flex-direction: column;
+        width: 50vw;
+        height: 60vh;
+        margin-bottom: 2vh;
+        padding-top: 2vh;
+    }
 }

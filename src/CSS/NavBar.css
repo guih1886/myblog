@@ -8,7 +8,6 @@ nav {
     height: 100%;
     border-bottom: solid #0f132A;
     text-align: center;
-    font-size: 14px;
 }
 
 nav ul {
@@ -16,7 +15,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     margin: 0;
-    font-size: 1em;
+    padding: 0;
     height: 100%;
     width: 100%;
     background-color: #0f132A;
@@ -26,6 +25,7 @@ nav li {
     display: inline-block;
     padding-top: 2vh;
     padding-bottom: 2vh;
+    font-size: 1rem;
 }
 
 nav a {
@@ -33,11 +33,23 @@ nav a {
     color: white;
     font-weight: bold;
     padding: 1.8rem 1.8rem;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 nav a:hover {
     background: white;
     color: black;
     font-weight: bold;
+}
+
+@media (max-width:425px) {
+    nav li {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:320px) {
+    nav li {
+        font-size: 0.4rem;
+    }
 }

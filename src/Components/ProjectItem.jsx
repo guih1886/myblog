@@ -16,10 +16,10 @@ export default function ProjectItem({ media, title, description, linkGit, route 
                 </div>
                 <div className="links">
                     {/* <a className='a-btn-item' href={route} target='_parent' rel='noreferrer'>
-                        <button className='button'>Página</button>
+                        <button className='button-item'>Página</button>
                     </a> */}
                     <a className='a-btn-item' href={linkGit} target='_blank' rel='noreferrer'>
-                        <button className='button'>GitHub</button>
+                        <button className='button-item'>GitHub</button>
                     </a>
 
                 </div>
