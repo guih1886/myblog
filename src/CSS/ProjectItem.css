@@ -51,12 +51,12 @@
     background-color: #102340;
     color: white;
     font-weight: bold;
-    word-break: break-word;
     overflow: scroll;
 }
 
 .description text {
     font-size: 2rem;
+    padding: 15px;
 }
 
 .links {
