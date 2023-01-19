@@ -52,9 +52,9 @@
     overflow: scroll;
 }
 
-.description text {
+.description>p {
+    margin: 5%;
     font-size: 2rem;
-    padding: 15px;
 }
 
 .links {

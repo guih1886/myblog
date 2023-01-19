@@ -1,6 +1,6 @@
 import React from 'react';
-import Photo from '../Documents/img1.jpeg';
-import CV from '../Documents/CV_Guilherme.pdf';
+import Photo from '../Assets/Images/img1.jpeg';
+import CV from '../Assets/Documents/CV_Guilherme.pdf';
 import '../CSS/About.css';
 import { SiJavascript, SiHtml5, SiCss3, SiReact, SiPython, SiPhp } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
