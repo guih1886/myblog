@@ -6,6 +6,7 @@ import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import ProjectsPage from "./Pages/ProjectsPage";
 import ContactPage from "./Pages/ContactPage";
+import FlappyBird from './Pages/FlappyBirdPage';
 
 
 function App() {
@@ -14,10 +15,15 @@ function App() {
       <div className="container">
         <NavBar />
         <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/about' element={<AboutPage />} />
-          <Route path='/projects' element={<ProjectsPage />} />
-          <Route path='/contact' element={<ContactPage />} />
+          <> {/* Pages */}
+            <Route path='/' element={<HomePage />} />
+            <Route path='/about' element={<AboutPage />} />
+            <Route path='/projects' element={<ProjectsPage />} />
+            <Route path='/contact' element={<ContactPage />} />
+          </>
+          <> {/* Projects links */}
+            <Route path='/projects/flappy' element={<FlappyBird />} />
+          </>
           <Route path='/*' element={<HomePage />} />
         </Routes>
         <Footer />

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../CSS/ProjectItem.css';
 
-export default function ProjectItem({ media, title, description, linkGit, route, disableLink, disableLinkGit }) {
+export default function ProjectItem({ media, title, description, linkGit, route, disableLink, disableLinkGit, titleLinkButton }) {
     return (
         <div className="main">
             <div className="container-item">
@@ -10,16 +10,16 @@ export default function ProjectItem({ media, title, description, linkGit, route,
                 </div>
                 <div className="title">{title}</div>
                 <div className="description">
-                    <text>
+                    <p>
                         {description}
-                    </text>
+                    </p>
                 </div>
                 <div className="links">
                     {disableLink ?
                         ''
                         :
                         <a className='a-btn-item' href={route} target='_parent' rel='noreferrer'>
-                            <button className='button-item'>Página</button>
+                            <button className='button-item'>{titleLinkButton ? titleLinkButton : 'Página'}</button>
                         </a>
                     }
                     {disableLinkGit ?
