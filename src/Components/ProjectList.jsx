@@ -12,7 +12,7 @@ import targetSum from '../Assets/Images/targetSum.jpeg';
 export default function ProjectList() {
     return (
         <>
-            <ProjectItem media={flappy} disableLink={false} disableLinkGit={false} title="Flappy Bird" route='/projects/flappy' description={'Projeto flappy bird desenvolvido em CSS e JavaScript, o qual é uma réplica do jogo que ficou famoso em 2013.'} linkGit={'https://github.com/guih1886/Projetos/tree/main/Front-End/Projeto_FlappyBird'} />
+            <ProjectItem media={flappy} disableLink={true} disableLinkGit={false} title="Flappy Bird" route='/projects/flappy' description={'Projeto flappy bird desenvolvido em CSS e JavaScript, o qual é uma réplica do jogo que ficou famoso em 2013.'} linkGit={'https://github.com/guih1886/Projetos/tree/main/Front-End/Projeto_FlappyBird'} />
 
             <ProjectItem media={crud} titleLinkButton={''} disableLink={true} disableLinkGit={false} title='CRUD React' route='/crudReact' description='Projeto de cadastros CRUD em que é possível incluir, alterar e excluir o cadastro de usuários. Foi desenvolvido com React e bootstrap no frontend e json-server no backend.' linkGit={'https://github.com/guih1886/Projetos/tree/main/Front-End/Cadastro_Usuarios'} />
 

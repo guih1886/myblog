@@ -109,7 +109,7 @@
         font-size: 1.6rem;
     }
 
-    .description text {
+    .description>p {
         font-size: 1.2rem;
     }
 
