@@ -1,7 +1,7 @@
 import React from 'react';
 import '../CSS/ProjectItem.css';
 
-export default function ProjectItem({ media, title, description, linkGit, route }) {
+export default function ProjectItem({ media, title, description, linkGit, route, disableLink, disableLinkGit }) {
     return (
         <div className="main">
             <div className="container-item">
@@ -15,12 +15,20 @@ export default function ProjectItem({ media, title, description, linkGit, route 
                     </text>
                 </div>
                 <div className="links">
-                    {/* <a className='a-btn-item' href={route} target='_parent' rel='noreferrer'>
-                        <button className='button-item'>Página</button>
-                    </a> */}
-                    <a className='a-btn-item' href={linkGit} target='_blank' rel='noreferrer'>
-                        <button className='button-item'>GitHub</button>
-                    </a>
+                    {disableLink ?
+                        ''
+                        :
+                        <a className='a-btn-item' href={route} target='_parent' rel='noreferrer'>
+                            <button className='button-item'>Página</button>
+                        </a>
+                    }
+                    {disableLinkGit ?
+                        ''
+                        :
+                        <a className='a-btn-item' href={linkGit} target='_blank' rel='noreferrer'>
+                            <button className='button-item'>GitHub</button>
+                        </a>
+                    }
 
                 </div>
             </div>
