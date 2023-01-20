@@ -9,6 +9,10 @@ export default function ProjectsPage() {
       <div className='project'>
         <div className="projects-list">
           <ProjectList />
+          <a className='a-btn-projects' href={'https://github.com/guih1886/myblog'} target='_blank'
+            rel='noreferrer'>
+            <button className='button-projects'>Repositório do site</button>
+          </a>
         </div>
       </div>
     </div>

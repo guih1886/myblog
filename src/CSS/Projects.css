@@ -13,3 +13,52 @@
     background-color: rgba(255, 255, 255, 0.1);
     overflow: scroll;
 }
+
+.a-btn-projects {
+    display: block;
+    height: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.button-projects {
+    border-radius: 0.8vh;
+    cursor: pointer;
+    background-color: #0039CC;
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+}
+
+.button-projects:hover {
+    background-color: #0070CC;
+}
+
+@media (max-width: 1024px) {
+    .button-projects {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .button-projects {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .button-projects {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .button-projects {
+        font-size: 0.8rem;
+    }
+}
