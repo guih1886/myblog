@@ -1,12 +1,38 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../CSS/ProjectItem.css';
 
-export default function ProjectItem({ media, title, description, linkGit, route, disableLink, disableLinkGit, titleLinkButton }) {
+export default function ProjectItem({ media, mediaWidth, mediaHeight, title, description, linkGit, route, disableLink, disableLinkGit, titleLinkButton }) {
+    function zoom() {
+        // (A) GET ALL IMAGES
+        let all = document.getElementsByTagName('img');
+        // (B) CLICK TO GO FULLSCREEN
+        if (all.length > 0) {
+            for (let i of all) {
+                i.onclick = () => {
+                    // (B1) EXIT FULLSCREEN
+                    if (document.fullscreenElement != null || document.webkitFullscreenElement != null) {
+                        if (document.exitFullscreen) { document.exitFullscreen(); }
+                        else { document.webkitCancelFullScreen(); }
+                    }
+                    // (B2) ENTER FULLSCREEN
+                    else {
+                        if (i.requestFullscreen) { i.requestFullscreen(); }
+                        else { i.webkitRequestFullScreen(); }
+                    }
+                };
+            }
+        }
+    };
+
+    useEffect(() => {
+        zoom();
+    }, [])
+
     return (
         <div className="main">
             <div className="container-item">
                 <div className="media">
-                    <img className='img-media' src={media} alt="Foto do projeto" />
+                    <img className='img-media' onClick={e => zoom()} style={{ width: mediaWidth, height: mediaHeight }} src={media} alt="Foto do projeto" />
                 </div>
                 <div className="title">{title}</div>
                 <div className="description">
