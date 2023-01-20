@@ -14,13 +14,13 @@ export default function AboutPage() {
           <img className='img-about' src={Photo} alt="Foto" />
         </div>
         <div className="icons">
-          <SiReact size={'100%'} />
-          <SiJavascript size={"100%"} />
-          <SiHtml5 size={'100%'} />
-          <SiPhp size={'100%'} />
-          <SiCss3 size={'100%'} />
-          <FaNodeJs size={'100%'} />
-          <SiPython size={'100%'} />
+          <SiReact />
+          <SiJavascript />
+          <SiHtml5 />
+          <SiPhp />
+          <SiCss3 />
+          <FaNodeJs />
+          <SiPython />
         </div>
         <div className="info">
           <h3>

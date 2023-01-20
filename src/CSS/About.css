@@ -27,6 +27,11 @@
     align-items: center;
 }
 
+.icons svg {
+    width: 200%;
+    height: 200%;
+}
+
 .info {
     width: 90%;
     height: 95%;
@@ -114,6 +119,13 @@ p {
     }
 }
 
+@media (max-width: 768px) {
+    .icons svg {
+        width: 150%;
+        height: 150%;
+    }
+}
+
 
 @media (max-width: 425px) {
     .img-about {
@@ -122,6 +134,11 @@ p {
 
     .info {
         font-size: 1.4rem;
+    }
+
+    .icons svg {
+        width: 80%;
+        height: 80%;
     }
 }
 
@@ -136,5 +153,10 @@ p {
 
     .button {
         font-size: 1.8rem;
+    }
+
+    .icons svg {
+        width: 60%;
+        height: 60%;
     }
 }
