@@ -2,7 +2,7 @@ import React from 'react';
 import Photo from '../Assets/Images/img1.jpeg';
 import CV from '../Assets/Documents/CV_Guilherme.pdf';
 import '../CSS/About.css';
-import { SiJavascript, SiHtml5, SiCss3, SiReact, SiPython, SiPhp } from 'react-icons/si';
+import { SiJavascript, SiHtml5, SiCss3, SiReact, SiPython, SiPhp, SiJava } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 
 
@@ -18,6 +18,7 @@ export default function AboutPage() {
           <SiJavascript />
           <SiHtml5 />
           <SiPhp />
+          <SiJava />
           <SiCss3 />
           <FaNodeJs />
           <SiPython />
@@ -33,7 +34,7 @@ export default function AboutPage() {
             <p>
               Começei então a estudar <strong>JavaScript</strong> e seus frameworks, como <strong>React, React Native</strong> para Android e Vue... mas o React me ganhou, e
               estou em busca de aprendizado para ele. Adquiri também conhecimentos em outras tecnologias como <strong>HTML, CSS, Gulp, jQuery, NextJS,
-                PHP, NodeJS, Python, SQL e MongoDB.</strong>
+                PHP, NodeJS, Python, SQL e Java.</strong>
             </p>
             <p>
               Hoje, estou a procura de uma oportunidade de <strong>estágio ou trainee</strong> na parte de <strong>Front-end, Back-end ou Mobile</strong>. Tenho bons conhecimentos
