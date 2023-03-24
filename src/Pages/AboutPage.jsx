@@ -17,9 +17,9 @@ export default function AboutPage() {
           <SiReact />
           <SiJavascript />
           <SiHtml5 />
+          <SiCss3 />
           <SiPhp />
           <SiJava />
-          <SiCss3 />
           <FaNodeJs />
           <SiPython />
         </div>
