@@ -32,13 +32,10 @@ export default function AboutPage() {
             <p>Mais tarde iniciei os estudos no campo de <strong>Ciência da Computação</strong>, o qual meu foco inicial era trabalhar com banco de dados,
               mas mudei com o tempo para programação após as aulas de Java na faculdade.</p>
             <p>
-              Começei então a estudar <strong>JavaScript</strong> e seus frameworks, como <strong>React, React Native</strong> para Android e Vue... mas o React me ganhou, e
-              estou em busca de aprendizado para ele. Adquiri também conhecimentos em outras tecnologias como <strong>HTML, CSS, Gulp, jQuery, NextJS,
-                PHP, NodeJS, Python, SQL e Java.</strong>
+              Começei então a estudar <strong>JavaScript</strong> e seus frameworks, como <strong>React, React Native</strong> para Android e Angular. Adquiri também conhecimentos em outras tecnologias como <strong>HTML, LESS, Express, NodeJS, Java, PHP, Python, MySQL entre outras.</strong>
             </p>
             <p>
-              Hoje, estou a procura de uma oportunidade de <strong>estágio ou trainee</strong> na parte de <strong>Front-end, Back-end ou Mobile</strong>. Tenho bons conhecimentos
-              e acredito que irei conseguir essa oportunidade em breve!
+              Hoje, estou a procura de uma oportunidade de <strong>júnior, estágio ou trainee</strong> na parte de <strong>Front-end, Back-end ou Mobile</strong>. Tenho bons conhecimentos e acredito que irei conseguir essa oportunidade em breve!
             </p>
           </h3>
         </div>
