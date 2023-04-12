@@ -14,7 +14,7 @@ export default function ProjectList() {
         <>
             <ProjectItem media={flappy} disableLink={false} disableLinkGit=
                 {false} title="Flappy Bird" route='https://guih1886.github.io/Flappy-bird/'
-                description={'Projeto flappy bird desenvolvido em CSS e JavaScript, o qual é uma réplica do jogo que ficou famoso em 2013.'} linkGit={'https://github.com/guih1886/Projetos/tree/main/Front-End/Projeto_FlappyBird'} />
+                description={'Projeto flappy bird desenvolvido em CSS e JavaScript, o qual é uma réplica do jogo que ficou famoso em 2013.'} linkGit={'https://github.com/guih1886/Flappy-bird/tree/main/docs'} />
 
             <ProjectItem media={crud} titleLinkButton={''} disableLink={true} disableLinkGit={false} title='CRUD React' route='/crudReact' description='Projeto de cadastros CRUD em que é possível incluir, alterar e excluir o cadastro de usuários. Foi desenvolvido com React e bootstrap no frontend e json-server no backend.' linkGit={'https://github.com/guih1886/Projetos/tree/main/Front-End/Cadastro_Usuarios'} />
 
