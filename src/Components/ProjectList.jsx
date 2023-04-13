@@ -4,6 +4,7 @@ import targetSumAPK from '../Assets/APK/targetSum.apk';
 import bakesaleAPK from '../Assets/APK/bakesale.apk';
 import flappy from '../Assets/Images/flappy.png';
 import crud from '../Assets/Images/crud.png';
+import crudAngular from '../Assets/Images/crudAngular.png';
 import galeria from '../Assets/Images/galeria.png';
 import backsale from '../Assets/Images/backsale.png';
 import cotacao from '../Assets/Images/cotacao.png';
@@ -12,6 +13,8 @@ import targetSum from '../Assets/Images/targetSum.jpeg';
 export default function ProjectList() {
     return (
         <>
+            <ProjectItem media={crudAngular} disableLink={false} disableLinkGit={false} title='CRUD Angular' route='https://guih1886.github.io/desafio-angular/' description='Projeto de cadastros CRUD em que é possível incluir, alterar e excluir o cadastro de alunos. O sistema faz o calculo automático da situação do aluno e da média, desenvolvido em Angular e LESS.' linkGit={'https://github.com/guih1886/desafio-angular'} />
+
             <ProjectItem media={flappy} disableLink={false} disableLinkGit=
                 {false} title="Flappy Bird" route='https://guih1886.github.io/Flappy-bird/'
                 description={'Projeto flappy bird desenvolvido em CSS e JavaScript, o qual é uma réplica do jogo que ficou famoso em 2013.'} linkGit={'https://github.com/guih1886/Flappy-bird/tree/main/docs'} />
