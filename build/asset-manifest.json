@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b58aed83.css",
+    "main.js": "/static/js/main.81e60731.js",
+    "static/media/targetSum.apk": "/static/media/targetSum.c136087d453628cd5a23.apk",
+    "static/media/bakesale.apk": "/static/media/bakesale.9dca6c587d4315a383d0.apk",
+    "static/media/galeria.png": "/static/media/galeria.6b77582b4b9e26e27ea2.png",
+    "static/media/CV_Guilherme.pdf": "/static/media/CV_Guilherme.67d5cd5bdcbfe980ee3f.pdf",
+    "static/media/backsale.png": "/static/media/backsale.4b3f98c3182229b2bebb.png",
+    "static/media/targetSum.jpeg": "/static/media/targetSum.5c8a0cb3e0552dfdbe95.jpeg",
+    "static/media/flappy.png": "/static/media/flappy.c5b0f124ea0e95c93114.png",
+    "static/media/crud.png": "/static/media/crud.a824ad988b0baaae0f20.png",
+    "static/media/cotacao.png": "/static/media/cotacao.fb2484e8bdc158467a51.png",
+    "static/media/img1.jpeg": "/static/media/img1.a271a02de46608ddfba0.jpeg",
+    "static/media/crudAngular.png": "/static/media/crudAngular.56af6cac03153e4313ac.png",
+    "index.html": "/index.html",
+    "main.b58aed83.css.map": "/static/css/main.b58aed83.css.map",
+    "main.81e60731.js.map": "/static/js/main.81e60731.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b58aed83.css",
+    "static/js/main.81e60731.js"
+  ]
+}
