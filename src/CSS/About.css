@@ -34,7 +34,7 @@
 
 .info {
     width: 90%;
-    height: 95%;
+    height: 90%;
     grid-area: i;
     background-color: #102340;
     margin-left: 3vw;
@@ -136,6 +136,11 @@ p {
         font-size: 1.4rem;
     }
 
+    .button {
+        font-size: 1.4rem;
+    }
+
+
     .icons svg {
         width: 80%;
         height: 80%;
@@ -152,7 +157,7 @@ p {
     }
 
     .button {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 
     .icons svg {
