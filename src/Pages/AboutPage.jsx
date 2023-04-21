@@ -41,6 +41,9 @@ export default function AboutPage() {
         </div>
         <div className="downloads">
           <div className="a-btn">
+            <a href="https://cursos.alura.com.br/vitrinedev/guih1886" target='_blank' rel='noreferrer'>
+              <button className='button'>Alura Vitrine.dev</button>
+            </a>
             <a href="https://onedrive.live.com/?authkey=%21AH35waqxWtL%5Frb8&id=403E62CB16C6E48D%2184126&cid=403E62CB16C6E48D" target='_blank' rel='noreferrer'>
               <button className='button'>Meus certificados</button>
             </a>
