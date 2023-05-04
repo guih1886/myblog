@@ -25,17 +25,17 @@ export default function AboutPage() {
         </div>
         <div className="info">
           <h3>
-            <p>Olá, me chamo Guilherme Henrique, tenho 28 anos, moro em Vargem Grande do Sul - SP e sou um <strong>desenvolvedor Front-end!</strong></p>
-            <p>Desde pequeno sempre fui apaixonado por tecnologia, minha        experiência começou sem percepção aos 14 anos, quando desenvolvi
-              um servidor de um jogo online o qual eu amava na época, todo programado em LUA e com arquivos XML, .config e um banco de dados
-              gerenciado com SQL lite! Naquela época e nem imaginava que seguiria esse caminho como profissão.</p>
-            <p>Mais tarde iniciei os estudos no campo de <strong>Ciência da Computação</strong>, o qual meu foco inicial era trabalhar com banco de dados,
-              mas mudei com o tempo para programação após as aulas de Java na faculdade.</p>
             <p>
-              Começei então a estudar <strong>JavaScript</strong> e seus frameworks, como <strong>React, React Native</strong> para Android e Angular. Adquiri também conhecimentos em outras tecnologias como <strong>HTML, LESS, Express, NodeJS, Java, PHP, Python, MySQL entre outras.</strong>
+              Meu nome é Guilherme Henrique, tenho 28 anos e sou um desenvolvedor Front-end de Vargem Grande do Sul - SP, apaixonado por tecnologia desde jovem.
             </p>
             <p>
-              Hoje, estou a procura de uma oportunidade de <strong>júnior, estágio ou trainee</strong> na parte de <strong>Front-end, Back-end ou Mobile</strong>. Tenho bons conhecimentos e acredito que irei conseguir essa oportunidade em breve!
+              Minha jornada na área começou aos 14 anos, quando desenvolvi um servidor de jogo online em LUA, com arquivos XML, e um banco de dados gerenciado com SQLlite. Embora não imaginasse na época, isso me levou a estudar <strong>Ciência da Computação</strong>, com foco inicial em banco de dados, até que descobri minha paixão pela programação ao aprender Java na faculdade.
+            </p>
+            <p>
+              Desde então, venho estudando <strong>JavaScript e seus frameworks, incluindo React, React Native para Android e Angular</strong>, e outras tecnologias como <strong>HTML, LESS, Express, NodeJS, TypeScript, Java, Spring Boot, PHP, Python</strong> e bancos de dados relacionais e não relacionais como MySQL e MongoDB.
+            </p>
+            <p>
+              Atualmente, cursando <strong>Análise e Desenvolvimento de Sistemas</strong> e estou em busca de oportunidades <strong>estágio, trainee ou júnior em Front-end, Back-end ou Mobile</strong>. Confiante em meus conhecimentos e habilidades para contribuir com as empresas e projetos nos quais venha a trabalhar.
             </p>
           </h3>
         </div>
