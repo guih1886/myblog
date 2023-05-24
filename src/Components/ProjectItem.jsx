@@ -44,7 +44,7 @@ export default function ProjectItem({ media, mediaWidth, mediaHeight, title, des
                     {disableLink ?
                         ''
                         :
-                        <a className='a-btn-item' href={route} target='_parent' rel='noreferrer'>
+                        <a className='a-btn-item' href={route} target='_blank' rel='noreferrer'>
                             <button className='button-item'>{titleLinkButton ? titleLinkButton : 'Página'}</button>
                         </a>
                     }
