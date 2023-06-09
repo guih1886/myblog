@@ -5,6 +5,7 @@ import bakesaleAPK from '../Assets/APK/bakesale.apk';
 import flappy from '../Assets/Images/flappy.png';
 import qrCode from '../Assets/Images/geradorQrCode.png'
 import crudAngular from '../Assets/Images/crudAngular.png';
+import crudReact from '../Assets/Images/crudReact2.png';
 import calculadoraReact from '../Assets/Images/calculadoraReact.png'
 import backsale from '../Assets/Images/backsale.png';
 import cotacao from '../Assets/Images/cotacao.png';
@@ -16,6 +17,7 @@ export default function ProjectList() {
         <>
             <ProjectItem media={aluroni} disableLink={false} disableLinkGit={false} title='Aluroni' route='https://guih1886.github.io/projeto-aluroni/' description='Aluroni é um projeto de cardápio de restaurante desenvolvido com React e escrito em typescript, utilizando SCSS para estilização. Nesse projeto podemos executar a buscar por título, filtrar por categoria dos pratos e ordenar por preço, porção ou serving.' linkGit={'https://github.com/guih1886/projeto-aluroni'} />
             <ProjectItem media={crudAngular} disableLink={false} disableLinkGit={false} title='CRUD Angular' route='https://guih1886.github.io/desafio-angular/' description='Projeto de cadastros CRUD em que é possível incluir, alterar e excluir o cadastro de alunos. O sistema faz o calculo automático da situação do aluno e da média, desenvolvido em Angular e LESS.' linkGit={'https://github.com/guih1886/desafio-angular'} />
+            <ProjectItem media={crudReact} disableLink={false} disableLinkGit={false} title='CRUD React' route='https://guih1886.github.io/CrudReact/' description='Projeto de cadastros CRUD simples desenvolvido em React e CSS. O sistema utliza o localStorage do navegador como banco de dados provisório, porém no desenvolvimento foi utilizado JSON Server.' linkGit={'https://github.com/guih1886/CrudReact'} />
             <ProjectItem media={calculadoraReact} disableLink={false} disableLinkGit={false} title='Calculadora' route='https://guih1886.github.io/Projeto_CalculadoraReact/' description='Nesse projeto desenvolvi essa calculadora o qual é possível realizar contas simples, assim como a calculadora que encontramos nativamente nos SOs.' linkGit={'https://github.com/guih1886/Projeto_CalculadoraReact'} />
             <ProjectItem media={qrCode} disableLink={false} disableLinkGit={false} title="Gerador QR Code" route='https://guih1886.github.io/GeradorQRCode/' description={'Nesse projeto é possível gerar um QR Code que pode ser lido e redirecionado por qualquer dispositivo.'} linkGit={'https://github.com/guih1886/GeradorQRCode'} />
             <ProjectItem media={flappy} disableLink={false} disableLinkGit={false} title="Flappy Bird" route='https://guih1886.github.io/Flappy-bird/' description={'Projeto flappy bird desenvolvido em CSS e JavaScript, o qual é uma réplica do jogo que ficou famoso em 2013.'} linkGit={'https://github.com/guih1886/Flappy-bird/tree/main/docs'} />
