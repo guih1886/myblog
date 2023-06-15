@@ -11,11 +11,13 @@ import backsale from '../Assets/Images/backsale.png';
 import cotacao from '../Assets/Images/cotacao.png';
 import targetSum from '../Assets/Images/targetSum.jpeg';
 import aluroni from '../Assets/Images/projeto_aluroni.jpg'
+import computer from '../Assets/Images/computer.png'
 
 export default function ProjectList() {
     return (
         <>
             <ProjectItem media={aluroni} disableLink={false} disableLinkGit={false} title='Aluroni' route='https://guih1886.github.io/projeto-aluroni/' description='Aluroni é um projeto de cardápio de restaurante desenvolvido com React e escrito em typescript, utilizando SCSS para estilização. Nesse projeto podemos executar a buscar por título, filtrar por categoria dos pratos e ordenar por preço, porção ou serving.' linkGit={'https://github.com/guih1886/projeto-aluroni'} />
+            <ProjectItem media={computer} disableLink={false} disableLinkGit={false} title='Computer Project' route='https://guih1886.github.io/computers-project/' description='Projeto de um e-commerce de uma loja de produtos eletrônicos desenvolvido em Angular. Nesse projeto podemos detalhar um produto, adicionar uma quantidade do produto no carrinho, filtrar os produtos pela descrição, excluir ou alterar a quantidade do produto no carrinho, confirmar a compra dos produtos no carrinho, enviar uma mensagem de contato' linkGit={'https://github.com/guih1886/computers-project'} />
             <ProjectItem media={crudAngular} disableLink={false} disableLinkGit={false} title='CRUD Angular' route='https://guih1886.github.io/desafio-angular/' description='Projeto de cadastros CRUD em que é possível incluir, alterar e excluir o cadastro de alunos. O sistema faz o calculo automático da situação do aluno e da média, desenvolvido em Angular e LESS.' linkGit={'https://github.com/guih1886/desafio-angular'} />
             <ProjectItem media={crudReact} disableLink={false} disableLinkGit={false} title='CRUD React' route='https://guih1886.github.io/CrudReact/' description='Projeto de cadastros CRUD simples desenvolvido em React e CSS. O sistema utliza o localStorage do navegador como banco de dados provisório, porém no desenvolvimento foi utilizado JSON Server.' linkGit={'https://github.com/guih1886/CrudReact'} />
             <ProjectItem media={calculadoraReact} disableLink={false} disableLinkGit={false} title='Calculadora' route='https://guih1886.github.io/Projeto_CalculadoraReact/' description='Nesse projeto desenvolvi essa calculadora o qual é possível realizar contas simples, assim como a calculadora que encontramos nativamente nos SOs.' linkGit={'https://github.com/guih1886/Projeto_CalculadoraReact'} />
