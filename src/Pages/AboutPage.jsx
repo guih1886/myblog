@@ -43,7 +43,7 @@ export default function AboutPage() {
               constantemente aprimorar-me através também de cursos na plataforma Alura. Meu objetivo principal é encontrar oportunidades de estágio, trainee ou posições júnior em áreas como Back-end, Mobile ou Web.
             </p>
             <p>
-              Se você estiver interessado em colaborar ou gostaria de entrar em contato, fique à vontade para me enviar uma mensagem através dos contatos fornecidos <a href="/contact"><strong>aqui</strong></a>.
+              Se você estiver interessado em colaborar ou gostaria de entrar em contato, fique à vontade para me enviar uma mensagem através dos contatos fornecidos através do menu de contato.
             </p>
           </h3>
         </div>
