@@ -2,7 +2,7 @@ import React from 'react';
 import Photo from '../Assets/Images/img1.jpeg';
 import CV from '../Assets/Documents/CV_Guilherme.pdf';
 import '../CSS/About.css';
-import { SiJavascript, SiHtml5, SiCss3, SiReact, SiPython, SiPhp, SiJava } from 'react-icons/si';
+import { SiTypescript, SiReact, SiPython, SiJava, SiDotnet, SiAngular } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 
 
@@ -14,28 +14,36 @@ export default function AboutPage() {
           <img className='img-about' src={Photo} alt="Foto" />
         </div>
         <div className="icons">
-          <SiReact />
-          <SiJavascript />
-          <SiHtml5 />
-          <SiCss3 />
-          <SiPhp />
           <SiJava />
-          <FaNodeJs />
           <SiPython />
+          <SiDotnet />
+          <FaNodeJs />
+          <SiTypescript />
+          <SiReact />
+          <SiAngular />
         </div>
         <div className="info">
           <h3>
             <p>
-              Meu nome é Guilherme Henrique, tenho 28 anos e sou um desenvolvedor Front-end de Vargem Grande do Sul - SP, apaixonado por tecnologia desde jovem.
+              Olá! Sou Guilherme Henrique, um entusiasta da tecnologia de 29 anos e desenvolvedor Back-end, localizado em Vargem Grande do Sul - SP.
             </p>
             <p>
-              Minha jornada na área começou aos 14 anos, quando desenvolvi um servidor de jogo online em LUA, com arquivos XML, e um banco de dados gerenciado com SQLlite. Embora não imaginasse na época, isso me levou a estudar <strong>Ciência da Computação</strong>, com foco inicial em banco de dados, até que descobri minha paixão pela programação ao aprender Java na faculdade.
+              Minha paixão pela tecnologia despertou cedo e moldou minha trajetória. Aos 14 anos, desenvolvi um servidor de jogo online usando LUA, arquivos XML e um banco de dados gerenciado com SQLlite.
+              Essa experiência inicial foi o ponto de partida para minha jornada na área de <strong>Ciência da Computação</strong>, inicialmente focada em banco de dados. No entanto, foi durante meus estudos na faculdade
+              que descobri minha verdadeira paixão pela programação ao mergulhar no mundo do <strong>Java</strong>.
             </p>
             <p>
-              Desde então, venho estudando <strong>JavaScript e seus frameworks, incluindo React, React Native para Android e Angular</strong>, e outras tecnologias como <strong>HTML, LESS, Express, NodeJS, TypeScript, Java, Spring Boot, PHP, Python</strong> e bancos de dados relacionais e não relacionais como MySQL e MongoDB.
+              Ao longo dos anos, tenho me dedicado ao aprimoramento contínuo, explorando linguagens como <strong>Java, .NET, Python, Golang e NodeJS</strong>, além de seus frameworks, como Django e Spring,
+              concentrando-me principalmente no desenvolvimento Back-end. Para o Front-end, tenho explorado <strong>React, Angular e TypeScript</strong> em diferentes projetos. Meu conjunto de habilidades também inclui
+              experiência em ferramentas e tecnologias como <strong>Docker, AWS, MySQL, SQL Server, PostgreSQL</strong> e uma formação específica em DevOps. Além disso, estou familiarizado com metodologias como <strong>TDD, DDD,
+                Scrum e Kanban</strong>, entre outras.
             </p>
             <p>
-              Atualmente, cursando <strong>Análise e Desenvolvimento de Sistemas</strong> e estou em busca de oportunidades <strong>estágio, trainee ou júnior em Front-end, Back-end ou Mobile</strong>. Confiante em meus conhecimentos e habilidades para contribuir com as empresas e projetos nos quais venha a trabalhar.
+              Acredito firmemente que o aprendizado contínuo é a chave para o crescimento profissional e estou constantemente buscando novos conhecimentos. Sou formado e atualmente estudo Análise e Desenvolvimento de Sistemas, buscando
+              constantemente aprimorar-me através também de cursos na plataforma Alura. Meu objetivo principal é encontrar oportunidades de estágio, trainee ou posições júnior em áreas como Back-end, Mobile ou Web.
+            </p>
+            <p>
+              Se você estiver interessado em colaborar ou gostaria de entrar em contato, fique à vontade para me enviar uma mensagem através dos contatos fornecidos <a href="/contact"><strong>aqui</strong></a>.
             </p>
           </h3>
         </div>
@@ -44,7 +52,7 @@ export default function AboutPage() {
             <a href="https://cursos.alura.com.br/vitrinedev/guih1886" target='_blank' rel='noreferrer'>
               <button className='button'>Alura Vitrine.dev</button>
             </a>
-            <a href="https://onedrive.live.com/?authkey=%21AH35waqxWtL%5Frb8&id=403E62CB16C6E48D%2184126&cid=403E62CB16C6E48D" target='_blank' rel='noreferrer'>
+            <a href="https://cursos.alura.com.br/user/guih1886/fullCertificate/667187f6cd9932b6a89a3cf0ebac711c" target='_blank' rel='noreferrer'>
               <button className='button'>Meus certificados</button>
             </a>
             <a href={CV} target='_blank' rel='noreferrer'>
