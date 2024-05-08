@@ -25,7 +25,7 @@ export default function AboutPage() {
         <div className="info">
           <h3>
             <p>
-              Olá! Sou Guilherme Henrique, um entusiasta da tecnologia de 29 anos e desenvolvedor Back-end, localizado em Vargem Grande do Sul - SP.
+              Olá! Sou Guilherme Henrique, um entusiasta da tecnologia de 30 anos e desenvolvedor Back-end, localizado em Vargem Grande do Sul - SP.
             </p>
             <p>
               Minha paixão pela tecnologia despertou cedo e moldou minha trajetória. Aos 14 anos, desenvolvi um servidor de jogo online usando LUA, arquivos XML e um banco de dados gerenciado com SQLlite.
